@@ -1,0 +1,373 @@
+
+body{
+	background-color: #fff;
+	color:#fff;
+	font-kerning: 'Montserrat', sans-serif;
+}
+.container-fluid{
+	max-width: 1440px;
+	margin: 0 auto;
+}
+header{
+	background-image: url(images/pine-trees.jpg);
+	background-size: cover;
+	text-align: center;
+	padding-top: 40px;
+	overflow: hidden;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: transparent;
+}
+.navbar{
+	background: transparent;
+	border:0;
+}
+
+/*	.logo{
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);}
+@media (min-width: 768px){
+	.logo{
+		position:absolute;
+		right: 80%;
+}*/
+#button{
+	border: 1px solid white;
+	padding: 0 25px;
+}
+
+.navbar-default {
+    /* background-color: #f8f8f8; */
+    /* border-color: #e7e7e7; */
+}
+.navbar-default .navbar-toggle .icon-bar{  
+    background-color:#bca64d;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-weight:600;
+	font-size: 18px;
+	color: #fff;
+}
+.navbar-default .navbar-toggle{
+	border: 0;
+}
+.headercontent{
+	margin: 0 auto;
+	text-align: center;
+}
+.headercontent h1{
+	padding-top: 100px;
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-weight:300;
+	clear:both;
+}
+#headercontent p{
+	font-weight: 600;	
+	font-size: 14px;
+}
+#headervideo{
+	padding-top: 28px;
+	margin-bottom: 0;
+
+}
+#headerp2{
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.shop-etsy{
+	font-weight: 600;
+	font-size: 18px;
+}
+.main-tp,.main-bm{
+	text-align: center; 
+}
+.main-panel-t1{
+	padding:0;
+}
+.main-tp h2,.main-bm h2{
+	font-weight: 400;
+	color: #000;
+	font-size: 20px;
+}
+.main-tp p, .main-bm p{
+	font-weight: 300;
+	color: #666;
+	font-size: 12px;
+	clear:both;
+	margin: 0 auto;
+	padding: 20px;
+}
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: inline-block;}
+ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.main-tp ul li{
+	display: inline;
+	color: #b0b0b0;
+	padding:10px;
+}
+.main-bm{
+	margin: 0 auto;
+	padding: 40px;
+}
+.main-left{	
+	text-align: center;
+}
+.inverted-panel{
+	background-color: #103341;
+	text-align: center;
+}
+.inverted-panel h2{
+	font-weight: 400;
+	color: #fff;
+	font-size: 20px;
+	padding:5%;
+}
+.inverted-panel h3{
+	font-weight: 400;
+	color:#d9d9d9 ;
+	font-size: 14px;
+}
+.inverted-panel p{
+	font-weight: 300;
+	font-style: italic;
+	color: #999;
+	font-size: 11px;
+}
+.closing{
+	background-image: url(images/pine-cone.jpg);
+	background-size: cover;
+	overflow: hidden;
+	margin: 0 auto;	
+	text-align: center;
+	padding:40px;
+}
+.closing h2{
+	font-weight:300;
+	font-size: 22px;
+	color: #999;
+	padding-top: 40%;
+}
+.closing h4{
+	font-weight:400;
+	font-size: 22px;
+	color:#666;
+}
+.closing button{
+	background-color:#bca64d;
+	padding: 24px;
+	font-weight: 600;
+	font-size: 18px;
+	border: 1px solid #bca64d;
+}
+.closing p{
+	padding: 10px;
+}
+.smalltext{	
+	padding: 10px;
+}
+.smalltext a{
+	font-weight: 300;
+	font-size: 11px;
+	color: #999;
+}
+.footer{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.footer h3{
+	font-weight: 300;
+	font-size: 30px;
+	color: #999;
+}
+.footer input{
+	text-align: center;
+	font-weight: 300;
+	font-size: 14px;
+	font-style: italic;
+	color:#999;
+	padding: 20px;
+	padding-left: 44px;
+	padding-right: 44px;
+}
+.footer button{
+	font-weight: 600;
+	font-size: 14px;
+	color:#fff; 	
+	padding: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+form input{
+	margin-bottom: 20px;
+}
+.footer-menu{
+	padding-top: 80px;
+}
+.footer-menu p, .footer-menu a{
+	font-weight: 300;
+	font-size: 12px;
+	color:#999;
+}
+
+.social li {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px;
+}
+.footer h3{
+	font-weight: 300;
+	font-size: 30px;
+	padding: 8px;
+	color:#666;
+}
+.social li a{
+	color:#bca64d;
+}
+@media (max-width:767px) {
+	.navbar-default .navbar-collapse{
+	background: white;
+	border-color: white;
+}
+	.nav-container{
+	position:absolute;
+ 	top: 0;
+}
+	.shop-etsy{
+		font-weight:600;
+		font-size:18px; 
+		background-color: #bca64d;
+		
+		text-align: center;
+		padding: 28px;	}
+	.large{
+		display: none;}
+	.footer h3{
+		display:none;}
+	.closing1{
+		display: none;
+	}
+	/*.main-panel-t1 img{
+		width:100%; padding: 0;margin:0;
+	}	
+	.main-panel-t2{
+	padding: 5px;}*/
+}
+@media (min-width: 768px){
+	.small{
+		display: none; 
+	}
+	.main-panel-t1{
+	float:right;
+}
+	.main-panel-t2{
+	float:left;
+	margin: 0 auto;
+	text-align: center;
+	padding:30px;
+}	
+	.main-bm{
+	display: flex;
+	flex-direction: row;
+}
+	.main-right{
+	/*float: right;*/
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+	text-align: center;
+}
+	.main-left, .main-right{
+		width: 88%
+	}
+	.closing{
+		text-align: left;
+	}
+	.closing-btn{
+	/*display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;*/
+    
+	}
+	.footer-menu li{
+	display: inline-block;
+}
+.footer-menu li a{
+	border-left: 1px solid #999;
+}
+.closing2 {
+	display: none;
+}
+
+}
+@media(min-width: 992px){
+	.headercontent h1{
+		font-size: 65px;
+	}
+	#headercontent p{	
+	font-size: 22px;
+	}
+	.main-tp h2,.main-bm h2{
+	font-weight: 300;
+	color: #666;
+	font-size: 40px;
+}
+.main-tp p, .main-bm p{
+	color: #999;
+	font-size:20px;
+}
+.inverted-panel h2{
+	color: #d9d9d9;
+	font-size: 40px;
+}
+.inverted-panel h3{
+	font-weight: 300;
+	font-size: 25px;
+}
+.inverted-panel p{
+	font-style: normal;
+	font-size: 16px;
+}
+.closing h2{
+	font-weight:300;
+	font-size: 22px;
+	color: #999;
+	padding-top: 40%;
+}
+.closing h4{
+	font-size: 35px;
+}
+.closing button{
+	font-size: 14px;	 
+}
+.button{
+ background-color: brown;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;}
+.smalltext a{
+	font-size: 20px;
+}
+.closing2 {
+	display: none;
+}
+.footer-menu p, .footer-menu a{
+	font-size: 14px;
+}
+}
+
+	
